@@ -2,6 +2,9 @@ import styled from "styled-components";
 import { darken } from "polished";
 export const Container = styled.header`
   background: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 `;
 
 export const Menu = styled.div`
@@ -15,6 +18,7 @@ export const Menu = styled.div`
   img {
     width: 200px;
     height: 87.64px;
+    display: block;
   }
 `;
 export const NavBar = styled.ul`
